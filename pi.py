@@ -3,5 +3,8 @@ text = """
     quantum mechanics. All of thy geometry, Herr Planck, is fairly hard.
 """
 
-# TODO
+result = list(map(lambda word: len(word.strip('.,')), text.split()))
+
+output = ''.join(map(str, result))
+print(output)
 
