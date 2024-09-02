@@ -17,7 +17,7 @@ b = 10
 if b <= 1:
     print(False)
 else:
-    for i in range(2, int(b　*　*0.5)　+　1):
+    for i in range(2, int(b　**0.5)　+　1):
         if b % i == 0:
             print(False)
             break
