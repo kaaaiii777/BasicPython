@@ -1,8 +1,6 @@
-a = input("aの値を入力: ")
-b = input("bの値を入力: ")
 
 # TODO
-a = 61
+a, b = 61, 10
 if a <= 1:
     print(False)
 else:
@@ -13,7 +11,7 @@ else:
     else:
         print(True)
 
-b = 10
+
 if b <= 1:
     print(False)
 else:
