@@ -8,14 +8,14 @@ if a < b :
     else:
         while b % a != 0 :
             b, a = a, b % a
-            print(a)
+        print(a)
 elif a > b :
     if a % b == 0:
         print(b)
     else:
         while a % b != 0 :
             a, b = b, a % b
-            print(b)
+        print(b)
 elif a == b :
     print(a)
 
@@ -27,14 +27,14 @@ if a < b :
     else:
         while b % a != 0 :
             b, a = a, b % a
-            print(a)
+        print(a)
 elif a > b :
     if a % b == 0:
         print(b)
     else:
         while a % b != 0 :
             a, b = b, a % b
-            print(b)
+        print(b)
 elif a == b :
     print(a)
     
@@ -46,13 +46,13 @@ if a < b :
     else:
         while b % a != 0 :
             b, a = a, b % a
-            print(a)
+        print(a)
 elif a > b :
     if a % b == 0:
         print(b)
     else:
         while a % b != 0 :
             a, b = b, a % b
-            print(b)
+        print(b)
 elif a == b :
     print(a)
