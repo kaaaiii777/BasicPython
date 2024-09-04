@@ -14,9 +14,3 @@ def sosuhantei(n) :
 
 sosuhantei(61)
 sosuhantei(10)
-
-
-        
-
-
-

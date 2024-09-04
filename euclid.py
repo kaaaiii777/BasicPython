@@ -18,4 +18,3 @@ sosuhantei(10, 20)
 sosuhantei(14, 91)
 sosuhantei(91, 14)
 
-

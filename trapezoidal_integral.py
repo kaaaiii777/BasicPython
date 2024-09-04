@@ -3,7 +3,6 @@ from math import sin,pi
 # print(sin(0))
 # >>> 0
 # -----------
-
 a = 0
 b = pi / 2
 N = 100

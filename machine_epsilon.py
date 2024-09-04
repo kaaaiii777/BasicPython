@@ -7,4 +7,3 @@ def kyokugen():
     print(x * 2)
 
 kyokugen()
-
