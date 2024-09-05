@@ -1,16 +1,15 @@
 
 # TODO
-n = 0
 def sosuhantei(n) :
     if n <= 1:
-        print(False)
+        return False
     else:
         for i in range(2, int(n ** 0.5) + 1):
             if n % i == 0:
-                print(False)
-            break
-        else:
-            print(True)
+                return False
+                break
+            else:
+                return True
 
-sosuhantei(61)
-sosuhantei(10)
+print(sosuhantei(61))
+print(sosuhantei(10))

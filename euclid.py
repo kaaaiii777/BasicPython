@@ -1,20 +1,20 @@
 #問３
-import math
-def tagainiso(a, b):
-    print(math.gcd(a, b))
+def gcd(a, b):
+    while b != 0:
+        a, b = b, a % b
+    return a
 
-tagainiso(10, 20)
-tagainiso(14, 91)
-tagainiso(91, 14)
-
+print(gcd(10, 20))
+print(gcd(14, 91))
+print(gcd(91, 14))
 #問４
-def sosuhantei(a, b):
-    if math.gcd(a, b) == 1:
-        print("true")
+def tagainiso(a, b):
+    if gcd(a, b) == 1:
+        return True
     else:
-        print("false")
+        return False
 
-sosuhantei(10, 20)
-sosuhantei(14, 91)
-sosuhantei(91, 14)
+print(tagainiso(10, 20))
+print(tagainiso(14, 91))
+print(tagainiso(91, 14))
 
