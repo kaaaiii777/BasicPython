@@ -7,9 +7,8 @@ def sosuhantei(n) :
         for i in range(2, int(n ** 0.5) + 1):
             if n % i == 0:
                 return False
-                break
-            else:
-                return True
+            
+        return True
 
 print(sosuhantei(61))
 print(sosuhantei(10))
