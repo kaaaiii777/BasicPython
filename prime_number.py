@@ -1,27 +1,14 @@
 
 # TODO
-a, b = 61, 10
-if a <= 1:
-    print(False)
-else:
-    for i in range(2, int(a ** 0.5) + 1):
-        if a % i == 0:
-            print(False)
-            break
+def sosuhantei(n) :
+    if n <= 1:
+        return False
     else:
-        print(True)
+        for i in range(2, int(n ** 0.5) + 1):
+            if n % i == 0:
+                return False
+            
+        return True
 
-
-if b <= 1:
-    print(False)
-else:
-    for i in range(2, int(b **0.5) + 1):
-        if b % i == 0:
-            print(False)
-            break
-    else:
-        print(True)
-        
-
-
-
+print(sosuhantei(61))
+print(sosuhantei(10))
